@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#nav_blk{
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+#nav_blk .tcs1{
+    font-size: 35px;
+}
+#nav_blk div{
+    font-size: 17px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nav_blk button{
+    background-color: rgb(179, 237, 62);
+    padding: 5px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+main{
+    color: white;
+    background-image: url(../youtube/images/tcs.avif);
+    height:900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   position: relative;
+}
+#nav_blk:hover{
+    color: white;
+}
+main .tcs4{
+    position: absolute;
+    top: 150px;
+    margin-left: 180px;
+}
+main .tcs5{
+    font-size: 60px;
+    font-family: cursive;
+}
+main .tcs6{
+    font-size: 25px;
+    text-decoration: none;
+}
+.tcs6:visited{
+    color: yellowgreen;
+}
+
+#hello1{
+
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 100px;
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px darkgray;
+    padding: 70px 70px 70px 70px;
+}
+#hello1 .hello2{
+         font-size: 40px;
+}
+iframe{
+      position: absolute;
+      top: 35px;
+      right: 40px;
+}
+
+#hello3{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+#hello3 .h1{
+    color: rgb(64, 148, 201);
+    font-size: 55px;
+}
+footer{
+    height: 600px;
+    background-color: black;
+    color: white;
+}
+footer .h3{
+    font-size: 40px ;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+footer .h2 {
+   display:flex;
+   align-items:flex-start;
+   justify-content: space-evenly;
+   padding-left: 2px;
+   font-size: 25px;
+   color: gray;
+}
+a{
+    color: gray;
+}
+footer span{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h4 div{
+    font-size: 30px;
+}
+.h4 p{
+    font-size: 15px;
+}
